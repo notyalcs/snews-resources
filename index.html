@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://www.sclayton.ca/TEST/starmap/CelestialMapIncludes/d3.min.js"></script>
+    <script src="https://www.sclayton.ca/TEST/starmap/CelestialMapIncludes/d3.geo.projection.min.js"></script>
+    <script src="https://www.sclayton.ca/TEST/starmap/CelestialMapIncludes/celestial.js"></script>
+    
+    <script src="https://www.sclayton.ca/TEST/starmap/Scripts/Values.js" defer></script>
+    <script src="https://www.sclayton.ca/TEST/starmap/Scripts/helper.js" defer></script>
+    <script src="https://www.sclayton.ca/TEST/starmap/Scripts/mapLoader.js" defer></script>
+
+    <link rel="stylesheet" href="./celestial.css">
+    
+    <title>SNEWS Testing</title>
+</head>
+<body>
+    <button onclick="loadAllBTN()">All</button>
+    <button onclick="loadGoldBTN()">Gold</button>
+    <button onclick="loadSilverBTN()">Silver</button>
+    <button onclick="loadBronzeBTN()">Bronze</button>
+    
+    <div id="myCoords"></div>
+    <div id="currentStar"></div>
+
+    <div id="celestial-map"></div>   
+    <div id="celestial-form"></div>
+
+</body>
+</html>

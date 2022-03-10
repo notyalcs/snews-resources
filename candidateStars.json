@@ -1,0 +1,31 @@
+{"type":"FeatureCollection",
+	"features":[{
+		"type":"candidate",
+		"id":"Test 01",
+		"properties":{
+			"n":"test1",
+			"dim":"100x100"
+		}, "geometry":{
+			"type":"Point",
+			"coordinates":[10.231, 7.876]
+		}},{
+	    "type":"candidate",
+	    "id":"Test 02",
+	    "properties":{
+	        "n":"Mo's Star",
+	        "dim":"500x500"
+	    }, "geometry":{
+	        "type":"Point",
+	        "coordinates":[0, 0]
+	    }}, {
+	        "type":"candidate",
+	    "id":"Test 02",
+	    "properties":{
+	        "n":"Mattias' Star",
+	        "dim":"69x69"
+	    }, "geometry":{
+	        "type":"Point",
+	        "coordinates":[69.69, 420.420]
+	    }
+	}]
+}
