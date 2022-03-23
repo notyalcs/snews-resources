@@ -13,7 +13,8 @@
     <script src="https://www.sclayton.ca/TEST/starmap/Scripts/helper.js" defer></script>
     <script src="https://www.sclayton.ca/TEST/starmap/Scripts/mapLoader.js" defer></script>
 
-    <link rel="stylesheet" href="./celestial.css">
+    <link rel="stylesheet" href="./CSS/celestial.css">
+    <link rel="stylesheet" href="./CSS/styling.css">
     
     <title>SNEWS Testing</title>
 </head>
@@ -24,7 +25,20 @@
     <button onclick="loadBronzeBTN()">Bronze</button>
     
     <div id="myCoords"></div>
-    <div id="currentStar"></div>
+    <div class="grid">
+        <div class="grid-header">
+        <div id="currentStar" class="starInfo">
+            <div id="clickedStar">Current Star Information:</div>
+            </div>
+            <div id="alias">Alias: </div>
+            <div id="gid">Gaia ID: </div>
+            <div id="coords">Gal Coords: </div>
+            <div id="vel">Radial Velocity: </div>
+            <div id="parallax">Parallax: </div>
+            <div id="spectral">Spectral Type: </div>
+            <a id="simbad" target="_blank">View on Simbad!</a>
+        </div>
+    </div>
 
     <div id="celestial-map"></div>   
     <div id="celestial-form"></div>
